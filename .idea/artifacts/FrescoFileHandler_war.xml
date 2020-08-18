@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FrescoFileHandler:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>FrescoFileHandler</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="FrescoFileHandler.war">
+      <element id="artifact" artifact-name="FrescoFileHandler:war exploded" />
+    </root>
+  </artifact>
+</component>
